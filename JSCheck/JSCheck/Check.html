@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <script>
+                function geocodeAddress() {
+                    try {
+                        webkit.messageHandlers.geocodeAddress.postMessage(
+                        {
+                        });
+                        
+                    } catch(err) {
+                        
+                    }
+                }
+            </script>
+    </head>
+    <body>
+        
+            
+        <p>This example uses the HTML DOM to assign an "onclick" event to a p element.</p>
+        
+        <input type="submit" value="Geocode Address" onclick="geocodeAddress();">
+        
+        
+        
+    </body>
+</html>
